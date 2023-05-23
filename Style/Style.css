@@ -1,0 +1,96 @@
+* {
+  background: #e5e5e5;
+
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #0a3871;
+}
+
+.Logo {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 2%;
+}
+
+main {
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.Text-Area {
+  border: none;
+  color: #0a3871;
+  margin-top: 90px;
+  text-transform: lowercase;
+}
+
+::placeholder {
+  color: #0a3871;
+}
+
+.Text-Area:focus {
+  outline: none;
+}
+
+.Mensaje {
+  background: white;
+  background-image: url(../Imagenes/muneco.png);
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 24px;
+  margin-left: 98px;
+  margin-top: 20px;
+  padding-left: 20px;
+  position: fixed;
+}
+
+.Mensaje:focus {
+  outline: none;
+}
+
+.Botones {
+  margin-top: 18px;
+  display: flex;
+}
+
+.btn-encriptar {
+  color: white;
+  cursor: pointer;
+  width: 328px;
+  height: 67px;
+  background: #0a3871;
+  border-radius: 24px;
+}
+
+.btn-Desencriptar {
+  box-sizing: border-box;
+  background-color: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  width: 328px;
+  height: 67px;
+ 
+  border-radius: 24px;
+}
+
+.btn-Copiar {
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  width: 336px;
+  height: 67px;
+  margin-left: 107px;
+  margin-top: 402px;
+  position: absolute;
+}
+
+.Informacion {
+  font-size: 18px;
+  color: #495057;
+}
